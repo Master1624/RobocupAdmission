@@ -1,11 +1,12 @@
-# B-Human Code Release
+# Sabana Herons Robocup Admission
 
-This is the official 2019 B-Human code release.
+El presente repositorio está desarrollado por los estudiantes John Jr Mota y Juan David Paladines.
 
-Previous code releases are tagged with "coderelease&lt;year&gt;", where &lt;year&gt; is the year in which the code was released (starting with 2013).
+Según el reto presentado por el profesor a cargo, se realizaron los siguientes archivos que demuestran
+la realización del reto:
 
-Please note that **before** you clone this repository on Windows, execute:
-```
-git config --global core.autocrlf input
-git config --global core.eol lf
-```
+1. El módulo que se debió realizar para el segundo punto tiene como nombre SimpleBallLocatorProvider, y la representación tiene como nombre SimpleBallModel.
+
+2. El escenario que se llevó a cabo para el segundo y tercer punto del reto se llama TeamBallPosition.
+
+3. Para realizar el reto en si, se hizo como archivo extra el TeamBallPositionCard.
