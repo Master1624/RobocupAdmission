@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Representations/BehaviorControl/FieldBall.h"
 #include "Representations/Communication/TeamData.h"
 #include "Representations/Infrastructure/FrameInfo.h"
 #include "Representations/Modeling/BallModel.h"
@@ -17,6 +18,7 @@ MODULE(SimpleBallLocatorProvider,
   REQUIRES(RobotPose),
   REQUIRES(TeamBallModel),
   REQUIRES(TeamData),
+  REQUIRES(FieldBall),
   PROVIDES(SimpleBallModel),
   DEFINES_PARAMETERS(
   {,
