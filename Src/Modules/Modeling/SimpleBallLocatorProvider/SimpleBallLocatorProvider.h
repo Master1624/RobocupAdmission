@@ -32,4 +32,5 @@ class SimpleBallLocatorProvider : public SimpleBallLocatorProviderBase
 {
 public:
   void update(SimpleBallModel& simpleBallModel) override;
-};
+}; //FUCKU
+
